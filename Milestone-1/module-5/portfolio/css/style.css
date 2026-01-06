@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared css */
+body {
+    font-size: 16px;
+}
+
+.btn {
+   background-color: #FD6E0A;
+   border: none;
+   padding: 18px 35px;
+   font-size: 20px;
+   color: #fff;
+   border-radius: 5px;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+/* main css */
+header {
+    background-color: #FFF8F3;
+    padding: 50px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #181818;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    color: #474747;
+    text-decoration: none;
+}
